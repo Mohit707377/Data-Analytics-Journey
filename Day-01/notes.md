@@ -15,6 +15,7 @@ The `print()` function is used to display output.
 
 Example:
 ```python
+# This is a single-line comment
 print("Hello World")
 ```
 ## 4. Comments
