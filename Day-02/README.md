@@ -23,6 +23,12 @@
 - Swapping two variables
 - Converting float into integer
 
+  ## Files
+
+- `notes.md` — Detailed Day 02 notes
+- `python.py` — Practice programs
+- `README.md` — Day 02 summary
+
 ## Practice
 
 I practiced Python programs based on user input,
