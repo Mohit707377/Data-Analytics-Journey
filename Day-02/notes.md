@@ -13,24 +13,28 @@ Example Output
 Enter your name: Mohit
 Mohit
 
-##2. Integer Input
+## 2. Integer Input
 To take an integer input from the user, we use int() with input().
 ```python
 age = int(input("Enter your age: "))
 print(age)
 ```
 Example Output
+
 Enter your age: 22
+
 22
 
-##3. Float Input
+## 3. Float Input
 To take a decimal number as input, we use float() with input().
 ```python
 age = float(input("Enter your age: "))
 print(age)
 ```
 Example Output
+
 Enter your age: 22.5
+
 22.5
 
 4. eval()
