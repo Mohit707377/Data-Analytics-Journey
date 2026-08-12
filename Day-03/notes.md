@@ -22,7 +22,7 @@ a and b are operands.
 ## Types of Operators
 
 ## Python operators can be divided into different categories:
-
+`
 -Arithmetic Operators
 -Comparison Operators
 -Logical Operators
@@ -30,7 +30,7 @@ a and b are operands.
 -Identity Operators
 -Bitwise Operators
 -Membership Operators
-
+`
 ## 1.1 Arithmetic Operators
 
 Arithmetic operators are used to perform mathematical operations.
