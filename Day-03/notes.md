@@ -16,19 +16,20 @@ print(c)
 ```
 Here:
 
-+ is the operator.
+`+` is the operator.
 a and b are operands.
-Types of Operators
+
+## Types of Operators
 
 ## Python operators can be divided into different categories:
 
-Arithmetic Operators
-Comparison Operators
-Logical Operators
-Assignment Operators
-Identity Operators
-Bitwise Operators
-Membership Operators
+-Arithmetic Operators
+-Comparison Operators
+-Logical Operators
+-Assignment Operators
+-Identity Operators
+-Bitwise Operators
+-Membership Operators
 
 ## 1.1 Arithmetic Operators
 
