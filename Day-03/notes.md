@@ -186,7 +186,6 @@ Bitwise operators work with the binary representation of numbers.
 | Operator | Name |
 |----------|------|
 | `&` | Bitwise AND |
-| `|` | Bitwise OR |
 | `^` | Bitwise XOR |
 | `<<` | Left Shift |
 | `>>` | Right Shift |
