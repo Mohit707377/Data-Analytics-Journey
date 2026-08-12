@@ -23,19 +23,19 @@ a and b are operands.
 
 ## Python operators can be divided into different categories:
 
--Arithmetic Operators
+1-Arithmetic Operators
 
--Comparison Operators
+2-Comparison Operators
 
--Logical Operators
+3-Logical Operators
 
--Assignment Operators
+4-Assignment Operators
 
--Identity Operators
+5-Identity Operators
 
--Bitwise Operators
+6-Bitwise Operators
 
--Membership Operators
+7-Membership Operators
 
 ## 1.1 Arithmetic Operators
 
