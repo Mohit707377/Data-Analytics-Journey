@@ -22,7 +22,7 @@ The `range()` function is commonly used with a `for` loop.
 
 ### Syntax
 
-`for variable in range(start, stop):
+`for variable in range(start, stop):  
     print(variable)`
 Example:
 ```python
