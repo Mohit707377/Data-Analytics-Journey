@@ -22,9 +22,9 @@ The `range()` function is commonly used with a `for` loop.
 
 ### Syntax
 
-`for variable in range(start, stop):`
-
-    `print(variable)`
+for variable in range(start, stop):
+    
+    print(variable)
     
 Example:
 
@@ -35,13 +35,9 @@ for i in range(1, 6):
 Output:
 
 1
-
 2
-
 3
-
 4
-
 5
 
 The ending value of range() is not included.
