@@ -22,9 +22,12 @@ The `range()` function is commonly used with a `for` loop.
 
 ### Syntax
 
-`for variable in range(start, stop):  
-    print(variable)`
+`for variable in range(start, stop):`
+
+    `print(variable)`
+    
 Example:
+
 ```python
 for i in range(1, 6):
     print(i)
@@ -32,9 +35,13 @@ for i in range(1, 6):
 Output:
 
 1
+
 2
+
 3
+
 4
+
 5
 
 The ending value of range() is not included.
@@ -44,6 +51,7 @@ The ending value of range() is not included.
 num = int(input("Enter the number: "))
 
 for i in range(1, 11):
+
     print(num, "x", i, "=", num * i)
 ```
 ## 1.2 While Loop
