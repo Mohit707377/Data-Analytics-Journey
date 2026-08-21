@@ -42,6 +42,14 @@ for i in range(1, 6):
         print(j - i, end="")
     print()
 ```
+```
+Output:
+54321
+4321
+321
+21
+1
+```
 ## Star Pattern
 ```python
 for i in range(1, 6):
@@ -74,131 +82,169 @@ Output:
 ```
 ### Multiplication Patterns
 ```python
-for i in range(1, 6):
-    for j in range(1, 6):
+for i in range(1, 11):
+    for j in range(1, i+1):
         print(i * j, end=" ")
     print()
+```
+```
+Output:
+1
+2 4
+3 6 9
+4 8 12 16
+5 10 15 20 25
+6 12 18 24 30 36
+7 14 21 28 35 42 49
+8 16 24 32 40 48 56 64
+9 18 27 36 45 54 63 72 81
+10 20 30 40 50 60 70 80 90 100
 ```
 ## 2. String Manipulation
 A string is a sequence of characters.
 A string can contain letters, numbers, spaces and special characters.
-Creating a String
+### Creating a String
+```puthon
 a = "Hello World"
 print(a)
-String Indexing
+```
+### String Indexing
 Each character in a string has an index.
+```python
 a = "Harry Potter and the Goblet of Fire"
-
 print(a[0])
-The first character has index 0.
-String Length
+#The first character has index 0.
+```
+### String Length
 The len() function is used to find the length of a string.
+```python
 a = "Hello World"
-
 print(len(a))
-Count Characters
+```
+### Count Characters
 The count() method is used to find how many times a character or substring occurs.
+```python
 a = "Hello World"
-
 print(a.count("o"))
-Convert to Uppercase
+```
+### Convert to Uppercase
 The upper() method converts all letters to uppercase.
+```python
 a = "hello world"
-
 print(a.upper())
-Convert to Lowercase
+```
+### Convert to Lowercase
 The lower() method converts all letters to lowercase.
+```python
 a = "HELLO WORLD"
-
 print(a.lower())
-Find Index of a Character
+```
+### Find Index of a Character
 The index() method returns the index of a character or substring.
+```python
 a = "Hello World"
-
 print(a.index("o"))
-Capitalize
+```
+### Capitalize
 The capitalize() method converts the first character of the string to uppercase.
+```python
 a = "hello world"
-
 print(a.capitalize())
-Find a Character
+```
+### Find a Character
 The find() method returns the index of the first occurrence of a character or substring.
+```python
 a = "Hello World"
-
 print(a.find("o"))
-String Formatting
+```
+### String Formatting
 The format() method is used to insert values into a string.
+```python
 name = "John"
-
 b = "My name is {}"
-
 print(b.format(name))
+```
+```
 Output:
 My name is John
-Center a String
+```
+### Center a String
 The center() method places a string in the center of a given width.
+```python
 name = "Mohit"
-
 print(name.center(20))
-3. String Functions
+```
+## 3. String Functions
 String functions can be used to check different properties of a string.
-isalnum()
+### isalnum()
 Returns True if all characters are alphanumeric.
+```python
 a = "Hello123"
-
 print(a.isalnum())
-isalpha()
+```
+### isalpha()
 Returns True if all characters are alphabets.
+```python
 a = "Hello"
-
 print(a.isalpha())
-isdecimal()
+```
+### isdecimal()
 Returns True if all characters are decimal characters.
+```python
 a = "1234"
-
 print(a.isdecimal())
-isdigit()
+```
+### isdigit()
 Returns True if all characters are digits.
+```python
 a = "1234"
-
 print(a.isdigit())
-isnumeric()
+```
+### isnumeric()
 Returns True if all characters are numeric.
+```python
 a = "1234"
-
 print(a.isnumeric())
-islower()
+```
+### islower()
 Returns True if all cased characters are lowercase.
+```python
 a = "hello"
-
 print(a.islower())
-isupper()
+```
+### isupper()
 Returns True if all cased characters are uppercase.
+```python
 a = "HELLO"
-
 print(a.isupper())
-isspace()
+```
+### isspace()
 Returns True if all characters are whitespace characters.
+```python
 a = "   "
-
 print(a.isspace())
-istitle()
+```
+### istitle()
 Returns True if the string follows title-case rules.
+```python
 a = "Hello World"
-
 print(a.istitle())
-4. Slicing in Strings
+```
+## 4. Slicing in Strings
 String slicing is used to get a part of a string.
-Syntax
+```Syntax:
 string[start:stop:step]
-Example
+```
+Example:
+```python
 a = "Harry Potter and the Goblet of Fire"
 
 print(a)
 print(a[0:5])
 print(a[6:12])
 print(a[-4:])
-Slicing with Step
+
+#Slicing with Step
 b = "0123456789"
 
 print(b)
@@ -206,77 +252,26 @@ print(b[::3])
 print(b[:7:2])
 print(b[::2])
 print(b[6::-1])
+```
 The step value determines how many positions are skipped while slicing.
-5. Problem Solving
-5.1 Separate String Values
-The split() method can be used to separate a string into different values.
-a = "OOTD.YOLO.ASAP.BRB.GTG.OTW"
+## String Problem Solving — 10 Questions
 
-b = a.split(".")
+1. Write a program to separate the values of a string using `split()`.
 
-print(b)
-5.2 Sort a String Alphabetically
-The sorted() function can be used to sort characters alphabetically.
-a = input("Enter anything: ")
+2. Write a program to sort the characters of a string alphabetically.
 
-b = sorted(a)
+3. Write a program to remove a specific character from a string.
 
-print(b)
-5.3 Remove a Character from a String
-The replace() method can be used to remove a character.
-a = "hello"
+4. Write a program to remove dots (`.`) from a string.
 
-b = a.replace("e", "")
+5. Write a program to count the occurrence of a specific substring in a string.
 
-print(b)
-5.4 Remove Dots from a String
-a = "F.R.I.E.N.D.S"
+6. Write a program to reverse a string.
 
-b = a.replace(".", "")
+7. Write a program to check whether a string contains only digits.
 
-print(b)
-5.5 Count Occurrences in a String
-The count() method can be used to count the occurrence of a substring.
-a = "she sells seashells on the sea shore"
+8. Write a program to check whether a string is a palindrome.
 
-b = a.count("sea")
+9. Write a program to count the number of vowels in a string.
 
-print("The number of times 'sea' occurs is:", b)
-5.6 Reverse a String
-String slicing can be used to reverse a string.
-a = input("Enter anything here: ")
-
-b = a[::-1]
-
-print(b)
-5.7 Check if a String Contains Only Digits
-The isdigit() method checks whether all characters in a string are digits.
-a = input("Enter anything here: ")
-
-print(a.isdigit())
-5.8 Check Palindrome
-A palindrome reads the same forward and backward.
-a = input("Enter anything here: ")
-
-rev = a[::-1]
-
-if a == rev:
-    print("It is a palindrome")
-else:
-    print("It is not a palindrome")
-5.9 Count Number of Vowels
-A loop can be used to count vowels in a string.
-a = input("Enter anything here: ")
-
-vowels = 0
-
-for i in a:
-    if i == "a" or i == "e" or i == "i" or i == "o" or i == "u":
-        vowels += 1
-
-print("Number of vowels:", vowels)
-5.10 Check Capitalization of Every Word
-The istitle() method can be used to check whether every word follows title-case rules.
-a = input("Enter anything here: ")
-
-print(a.istitle())
+10. Write a program to check whether every word in a string starts with a capital letter.
